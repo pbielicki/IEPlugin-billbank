@@ -1,0 +1,85 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Billbank.IEPlugin" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PluginVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0.6.24</Value>
+    </Setting>
+    <Setting Name="LocationUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://irachunki.pl/miniWeb/</Value>
+    </Setting>
+    <Setting Name="PluginTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">iRachunki.pl</Value>
+    </Setting>
+    <Setting Name="ProviderId" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;https://www.mbank.com.pl&lt;/string&gt;
+  &lt;string&gt;https://secure.inteligo.com.pl&lt;/string&gt;
+  &lt;string&gt;https://www.pekao24.pl&lt;/string&gt;
+  &lt;string&gt;https://ssl.bsk.com.pl&lt;/string&gt;
+  &lt;string&gt;https://www.centrum24.pl&lt;/string&gt;
+  &lt;string&gt;https://www.ipko.pl&lt;/string&gt;
+  &lt;string&gt;https://www.millenet.pl&lt;/string&gt;
+  &lt;string&gt;https://www.managerland.pl&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ProviderClass" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Billbank.IEPlugin.Provider.MBankProvider&lt;/string&gt;
+  &lt;string&gt;Billbank.IEPlugin.Provider.InteligoProvider&lt;/string&gt;
+  &lt;string&gt;Billbank.IEPlugin.Provider.Pekao24Provider&lt;/string&gt;
+  &lt;string&gt;Billbank.IEPlugin.Provider.IngProvider&lt;/string&gt;
+  &lt;string&gt;Billbank.IEPlugin.Provider.BzWbkProvider&lt;/string&gt;
+  &lt;string&gt;Billbank.IEPlugin.Provider.PkoProvider&lt;/string&gt;
+  &lt;string&gt;Billbank.IEPlugin.Provider.MilleniumProvider&lt;/string&gt;
+  &lt;string&gt;Billbank.IEPlugin.Provider.MilleniumProvider&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ChoseBankLink" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://irachunki.pl/miniWeb/chooseBank.action?version=</Value>
+    </Setting>
+    <Setting Name="ReloadCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MaxReload" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="LogoutUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://irachunki.pl/miniWeb/logout.action</Value>
+    </Setting>
+    <Setting Name="Pekao24PredefinedJspUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mJump('MCP/server/MTPredefinedAccount.jsp',1, '?')</Value>
+    </Setting>
+    <Setting Name="Pekao24NotPredefinedJspUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mJump('MCP/server/MTNotPredefinedAccount.jsp',1, '?')</Value>
+    </Setting>
+    <Setting Name="Pekao24PredefinedHtmUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mJump('/MCP/MTPredefinedAccount.htm',1, '?')</Value>
+    </Setting>
+    <Setting Name="Pekao24NotPredefinedHtmUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mJump('/MCP/MTNotPredefinedAccount.htm',1, '?')</Value>
+    </Setting>
+    <Setting Name="LinksInnerHtmlToHandle" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;zobacz wskazówki&lt;/string&gt;
+  &lt;string&gt;załóż bezpłatne konto&lt;/string&gt;
+  &lt;string&gt;zobacz demo&lt;/string&gt;
+  &lt;string&gt;zamknij to okienko&lt;/string&gt;
+  &lt;string&gt;regulaminem&lt;/string&gt;
+  &lt;string&gt;zobacz co zrobić&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="BanksListLink" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://irachunki.pl/miniWeb/banksList.action?version=</Value>
+    </Setting>
+    <Setting Name="PluginTooltip" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Podręczna Lista Rachunków</Value>
+    </Setting>
+    <Setting Name="FirstExecutionLink" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://irachunki.pl/plrInstalled.action</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

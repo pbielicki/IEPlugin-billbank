@@ -1,0 +1,12 @@
+<PartCoverSettings>
+  <Target>C:\Program Files\NUnit 2.5.2\bin\net-2.0\nunit-x86.exe</Target>
+  <TargetWorkDir>e:\workspace\IEPlugin_local\IEPluginTests\</TargetWorkDir>
+  <TargetArgs>/config=e:\workspace\IEPlugin_local\IEPluginTests\IEPluginTests.csproj</TargetArgs>
+  <Rule>+[IEPlugin]*</Rule>
+  <Rule>+[IEPluginTests]*</Rule>
+  <Rule>-[IEPlugin]Billbank.IEPlugin.Icons*</Rule>
+  <Rule>-[IEPlugin]Billbank.IEPlugin.IEModule*</Rule>
+  <Rule>-[IEPlugin]Billbank.IEPlugin.Resources*</Rule>
+  <Rule>-[IEPlugin]Billbank.IEPlugin.Settings*</Rule>
+  <Rule>-[IEPlugin]Billbank.IEPlugin.SideBar*</Rule>
+</PartCoverSettings>

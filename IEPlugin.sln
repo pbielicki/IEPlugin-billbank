@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEPlugin", "IEPlugin\IEPlugin.csproj", "{B775CF06-F81D-4957-8CA4-C51691DFA918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEPluginTests", "IEPluginTests\IEPluginTests.csproj", "{17A384A4-9DCA-4AA1-9BAD-0F2EA9D385C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B775CF06-F81D-4957-8CA4-C51691DFA918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B775CF06-F81D-4957-8CA4-C51691DFA918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B775CF06-F81D-4957-8CA4-C51691DFA918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B775CF06-F81D-4957-8CA4-C51691DFA918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A384A4-9DCA-4AA1-9BAD-0F2EA9D385C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A384A4-9DCA-4AA1-9BAD-0F2EA9D385C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
